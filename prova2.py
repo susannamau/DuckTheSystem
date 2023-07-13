@@ -60,6 +60,7 @@ def start_program():
     time_in_minutes = entry.get()
     try:
         time_in_minutes = int(time_in_minutes)
+        window.destroy()
         time_in_seconds = time_in_minutes * 60
         messagebox.showinfo(
             "Programma in esecuzione",
