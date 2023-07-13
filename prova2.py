@@ -154,7 +154,11 @@ button.pack(pady=30)
 # label2 = tk.Label(window)
 # label2.pack()
 # window.after(0, update, 0)
+## fine commentato da luca
 
+## TODO
+## puoi pensare di mettere che se hai cliccato lo stat si comincia a muovere
+## sennò carica quella normale ferma
 
 lbl = ImageLabel(window)
 lbl.pack()
